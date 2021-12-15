@@ -1,5 +1,5 @@
 /* 1 - OVEJAS */
-var ovejas = [
+/*var ovejas = [
     { name: 'Noa', color: 'azul' },
     { name: 'Euge', color: 'rojo' },
     { name: 'Navidad', color: 'rojo' },
@@ -25,11 +25,11 @@ var ovejas = [
     
   const ovejasFiltradas = contarOvejas(ovejas)
 
-  console.log(ovejasFiltradas)
+  console.log(ovejasFiltradas)*/
   
 
 /* 2 - REGALS*/
-  const carta = 'bici coche balón _playstation bici coche peluche';
+ /* const carta = 'bici coche balón _playstation bici coche peluche';
  
 
   function listGifts(letter) {
@@ -55,11 +55,11 @@ var ovejas = [
 
 const regalos = listGifts(carta)
 
-console.log(regalos)
+console.log(regalos)*/
 
 /* 3 - FASTIDIO*/
 function isValid(letter) {
-    if( !letter.includes("[") & !letter.includes("{") & letter.includes("(") & letter.includes(")") & !letter.includes("()")
+    if( !letter.includes("[") & !letter.includes("{") & letter.includes("(") & letter.includes(")") & !letter.includes("()") & letter.indexOf("(") < letter.indexOf(")")
     ) {
         return true;
 
@@ -82,7 +82,7 @@ function isValid(letter) {
 
 
 /* 5 - DAYS TO XMAS*/
-const date = new Date('Dec 25, 2021')
+/*const date = new Date('Dec 25, 2021')
 daysToXmas(date) // 0
 
 const date1 = new Date('Dec 1, 2021')
@@ -119,4 +119,4 @@ console.log(daysToXmas(date4));
 console.log(daysToXmas(date5));
 console.log(daysToXmas(date6));
 console.log(daysToXmas(date7));
-console.log(daysToXmas(date8));
+console.log(daysToXmas(date8));*/
